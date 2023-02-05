@@ -1,13 +1,56 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#header {
+  padding: 20px 0;
+}
+#header .imgbox {
+  width: 50px;
+}
+#header nav {
+  align-items: center;
 }
 
-a:hover {
-  color: black;
+#welcome {
+  background-image: url("header-bg.jpg");
+  background-color: white;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/*# sourceMappingURL=style.css.map */
+#welcome .box {
+  position: absolute;
+  transform: translate(220px, 270px);
+  width: 900px;
+  text-align: center;
+}
+#welcome .box h1 {
+  color: white;
+  font-size: 55px;
+  padding-bottom: 35px;
+}
+#welcome .box h2 {
+  color: white;
+  font-size: 95px;
+  padding-bottom: 35px;
+}
+#welcome .box .btn {
+  width: 200px;
+  height: 60px;
+  background-color: #fdd834;
+  padding: 13px 0 0 5px;
+}
+#welcome .box .btn:hover {
+  background-color: #edc200;
+}
+#welcome .box .btn h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: default;
+}
+#welcome .box .btn h3:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
